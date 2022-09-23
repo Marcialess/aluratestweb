@@ -235,9 +235,12 @@ margin: 0 20px 20px 0;
 }
 
 @media screen and (max-width:480px){
+    .productos li{
+        display: list-item;
+    }
     h1{text-align: center;}
     nav{position: static;}
-.box,.principal,.map-contenido,.contenido-diferenciales,.video{
+.box,.principal,.map-contenido,.contenido-diferenciales,.video,#boxlistada{
     width: auto;
 }
 
